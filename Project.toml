@@ -1,0 +1,24 @@
+name = "SparsePC"
+uuid = "171bfc6c-159b-444b-9547-61b1c54ae040"
+authors = ["Meihua Dang <mhdang@cs.ucla.edu>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+ChowLiuTrees = "be466665-d60c-4e0a-9ae9-070eb5e678a5"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DirectedAcyclicGraphs = "1e6dae5e-d6e2-422d-9af3-452e7a3785ee"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+LogicCircuits = "a7847b3b-b7f1-4dd5-83c3-60e0aa0f8599"
+MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
+MLDatasets = "eb30cadb-4394-5ae3-aed4-317e484a6458"
+ProbabilisticCircuits = "2396afbe-23d7-11ea-1e05-f1aa98e17a44"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
+[extras]
+CPUSummary = "2a0fbf3d-bb9c-48f3-b0a9-814d99fd7ab9"

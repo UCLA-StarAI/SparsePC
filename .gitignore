@@ -1,0 +1,5 @@
+Manifest.toml
+datasets/
+exp/
+circuits/
+run.sh
