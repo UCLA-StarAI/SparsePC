@@ -99,6 +99,6 @@ end
 
 function mkdir_safe(dir)
     if !isdir(dir)
-        mkdir(dir)
+        mkpath(dir)
     end
 end

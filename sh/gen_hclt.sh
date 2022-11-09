@@ -50,27 +50,6 @@ for latents in 8 16 32 48 64 96 128 256; do
     done
 done
 
-for latents in 8 16 32 48 64 96 128 256; do
-    for datasetname in ptbchar_288; do
-        softness=0.0
-        dir=exp/hclt/$datasetname/$latents
-        mkdir -p $dir
-        for batch_size in 256 512; do
-            n1=100; n2=100; n3=100; n4=100;
-            for p1 in 0.0; do 
-                for p2 in 0.9; do
-                    for p3 in 0.99; do
-                        for p4 in 0.999; do
-                            for pseudocount in 0.01 0.005; do
-                                eval $cmd
-                            done
-                        done 
-                    done 
-                done
-            done
-        done
-    done
-done
 
 for latents in 8 16 32 48 64 96 128; do
     for datasetname in emnist_byclass; do

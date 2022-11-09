@@ -34,7 +34,7 @@ function samesize_loop_main(;seed, cuda_id, dir, # config
     # load data and init pc
     train_x, valid_x, test_x = data_gpu(datasetname)
     data_summary(datasetname, train_x, valid_x, test_x)
-    file = "circuits/$datasetname/$datasetname.z=$latents.jpc"
+    file = "circuits/hclt/$datasetname/$datasetname.z=$latents.jpc"
     if !isfile(file)
         file = file * ".gz"
     end
